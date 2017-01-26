@@ -17,8 +17,8 @@
     
     svg {
         display: block;
-        width: 36vw;
-        margin: 33vh auto 8vw;
+        width: 24vw;
+        margin: 31vh auto 14vw;
 
         .cls-1 {
             fill: #65ffc0;
@@ -31,13 +31,13 @@
         p {
             color: #65ffc0;
             text-align: center;
-            font-size: 9vw;
+            font-size: 13vw;
             font-family: Nexa;
-            font-weight: 600;
+            font-weight: 200;
             display: inline-block;
-            border: .75vw solid;
-            padding: 4vw 0 3vw;
-            width: 11vw;
+            border: .5vw solid;
+            padding: 7vw 0 4vw;
+            width: 18vw;
             margin: 0;
         }
 
@@ -48,7 +48,7 @@
     }
 
     .clicker {
-        color: #65ffc0;   
+        color: #65ffc0;  
     }
     
 }
@@ -59,39 +59,28 @@
     width: 100vw;
     height: 100vh;
 
-    h2 {
-        color: #4761ac;
-        font-family: Nexa;
-        font-size: 14vw;
-        font-style: italic;
-        font-weight: 600;
-        text-align: center;
-        margin: 0;
-    }
-
     svg {
         display: block;
-        margin: 24vh auto 6vw;
-        width: 9vw;
-        stroke-width: 4px;
+        margin: 29vh auto 10vw;
+        width: 14vw;
+        stroke-width: 2.5px;
 
         .cls-1 {
             fill: none;
         }  
     }
 
-}
+    h2 {
+        color: #4761ac;
+        font-family: Nexa;
+        font-size: 10vw;
+        font-style: italic;
+        font-weight: 600;
+        text-align: center;
+        margin: 0;
+        padding: 0 13vw;
+    }
 
-.clicker {
-    background-color: transparent;
-    border: .75vw solid;
-    color: #4761ac;
-    font-family: Nexa;
-    font-size: 6vw;
-    font-weight: 500;
-    margin: 5vw auto 0;
-    padding: 4vw 5vw 3vw;
-    display: block;
 }
 
 #click3 {
@@ -113,6 +102,7 @@
         font-style: italic;
         font-weight: 600;
         text-align: center;
+        padding: 0 7.5vw;
     }
 
     p {
@@ -124,4 +114,16 @@
     }   
 
 
+}
+
+.clicker {
+    background-color: transparent;
+    border: .5vw solid;
+    color: #4761ac;
+    font-family: Nexa;
+    font-size: 4vw;
+    font-weight: 500;
+    padding: 2vw 3vw;
+    display: block;
+    margin: 10vw auto 0; 
 }
