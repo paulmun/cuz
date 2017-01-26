@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/Nexa-Thin.otf") format("opentype"); }
+@font-face {
+  font-family: 'Nexa';
+  font-style: italic;
+  font-weight: 100;
+  src: url("../fonts/Nexa-Thin-Italic.otf") format("opentype"); }
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/Nexa-Light.otf") format("opentype"); }
+@font-face {
+  font-family: 'Nexa';
+  font-style: italic;
+  font-weight: 200;
+  src: url("../fonts/Nexa-Light-Italic.otf") format("opentype"); }
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/Nexa-Book.otf") format("opentype"); }
+@font-face {
+  font-family: 'Nexa';
+  font-style: italic;
+  font-weight: 300;
+  src: url("../fonts/Nexa-Book-Italic.otf") format("opentype"); }
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Nexa-Regular.otf") format("opentype"); }
+@font-face {
+  font-family: 'Nexa';
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/Nexa-Italic.otf") format("opentype"); }
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Nexa-Bold.otf") format("opentype"); }
+@font-face {
+  font-family: 'Nexa';
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/Nexa-Bold-Italic.otf") format("opentype"); }
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Nexa-XBold.otf") format("opentype"); }
+@font-face {
+  font-family: 'Nexa';
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/Nexa-XBold-Italic.otf") format("opentype"); }
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Nexa-Heavy.otf") format("opentype"); }
+@font-face {
+  font-family: 'Nexa';
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/Nexa-Heavy-Italic.otf") format("opentype"); }
+@font-face {
+  font-family: 'Nexa';
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/Nexa-Black.otf") format("opentype"); }
+@font-face {
+  font-family: 'Nexa';
+  font-style: italic;
+  font-weight: 800;
+  src: url("../fonts/Nexa-Black-Italic.otf") format("opentype"); }
+#click1 {
+  background-color: #4761ac;
+  position: absolute;
+  width: 100vw;
+  height: 100vh; }
+  #click1 h1 {
+    font-family: Nexa;
+    font-weight: 800;
+    font-style: italic;
+    color: #65ffc0;
+    text-align: center;
+    font-size: 20vw;
+    margin-top: 45vw;
+    margin-bottom: 3vw; }
+  #click1 #counter {
+    text-align: center; }
+    #click1 #counter p {
+      color: #65ffc0;
+      text-align: center;
+      font-size: 9vw;
+      font-family: Nexa;
+      font-weight: 600;
+      display: inline-block;
+      border: .75vw solid;
+      padding: 4vw 0 3vw;
+      width: 10vw;
+      margin: 0; }
+    #click1 #counter p:first-child {
+      margin-right: -2vw; }
+  #click1 .clicker {
+    background-color: transparent;
+    border: 0.75vw solid #66ffbf;
+    color: #66ffbf;
+    font-family: Nexa;
+    font-size: 6vw;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 5vw auto 0;
+    padding: 3.5vw;
+    display: block; }
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0; }
+
+/*# sourceMappingURL=main.css.map */
