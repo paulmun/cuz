@@ -103,7 +103,7 @@
       width: 11vw;
       margin: 0; }
     #click1 #counter p:first-child {
-      margin-right: -1.5vw; }
+      margin-right: -1vw; }
   #click1 .clicker {
     color: #65ffc0; }
 
@@ -144,17 +144,23 @@
   position: absolute;
   width: 100vw;
   height: 100vh; }
+  #click3 svg {
+    display: block;
+    width: 24vw;
+    margin: 31vh auto 8vw; }
   #click3 h2 {
     color: #4761ac;
     font-family: Nexa;
-    font-size: 14vw;
+    font-size: 10vw;
     font-style: italic;
     font-weight: 600;
     text-align: center; }
-  #click3 svg {
-    display: block;
-    width: 36vw;
-    margin: 33vh auto 8vw; }
+  #click3 p {
+    color: #4761ac;
+    font-family: Nexa;
+    font-size: 3.5vw;
+    font-weight: 600;
+    text-align: center; }
 
 body {
   height: 100vh;

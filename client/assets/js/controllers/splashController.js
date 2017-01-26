@@ -20,9 +20,5 @@
             }
         }
 
-        var viewChanger = function(){
-
-        }
-
     };
 })();

@@ -42,7 +42,7 @@
         }
 
         p:first-child {
-            margin-right: -1.5vw;
+            margin-right: -1vw;
         }
 
     }
@@ -100,18 +100,28 @@
     width: 100vw;
     height: 100vh;
 
+    svg {
+        display: block;
+        width: 24vw;
+        margin: 31vh auto 8vw;
+    }
+
     h2 {
         color: #4761ac;
         font-family: Nexa;
-        font-size: 14vw;
+        font-size: 10vw;
         font-style: italic;
         font-weight: 600;
         text-align: center;
     }
 
-    svg {
-        display: block;
-        width: 36vw;
-        margin: 33vh auto 8vw;
-    }
+    p {
+        color: #4761ac;
+        font-family: Nexa;
+        font-size: 3.5vw;
+        font-weight: 600;
+        text-align: center;
+    }   
+
+
 }
