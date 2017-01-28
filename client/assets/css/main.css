@@ -86,7 +86,7 @@
   #click1 svg {
     display: block;
     width: 24vw;
-    margin: 31vh auto 14vw; }
+    margin: 26vh auto 14vw; }
     #click1 svg .cls-1 {
       fill: #65ffc0; }
   #click1 #counter {
@@ -164,6 +164,40 @@
   display: block;
   margin: 10vw auto 0; }
 
+@media (orientation: landscape) {
+  #click1 svg {
+    width: 11vw;
+    margin: 20vh auto 4vw; }
+  #click1 #counter p {
+    font-size: 5vw;
+    padding: 3vw 0 2vw;
+    width: 7vw;
+    border: .4vw solid; }
+  #click1 #counter p:first-child {
+    margin-right: -.8vw; }
+
+  #click2 svg {
+    margin: 18vh auto 4vw;
+    width: 6vw; }
+  #click2 h2 {
+    font-size: 5vw;
+    padding: 0 31vw; }
+
+  #click3 svg {
+    width: 11vw;
+    margin: 20vh auto 4vw; }
+  #click3 h2 {
+    font-size: 5vw;
+    padding: 0 10vw; }
+  #click3 p {
+    font-size: 2.25vw; }
+
+  .clicker {
+    margin: 3vw auto 0;
+    padding: 1vw 1.5vw;
+    font-size: 2vw;
+    border: .4vw solid;
+    cursor: pointer; } }
 body {
   height: 100vh;
   width: 100vw;
