@@ -2,7 +2,7 @@
     angular.module('cuzMain').controller('splashController', splashController);
 
     function splashController($scope, $location){
-        $scope.counter = [1,0];
+        $scope.counter = [Math.floor(Math.random()*3), Math.floor(Math.random()*9+1)];
         $scope.view = 0;
         $scope.buttonText = 'click here';
 
@@ -19,6 +19,11 @@
                 $scope.counter[1]--;
             }
         }
+
+        // $scope.goBack = function(){
+        //     $scope.view = 0;
+        //     $scope.counter = [0, 1];
+        // }
 
     };
 })();

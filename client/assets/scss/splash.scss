@@ -1,24 +1,15 @@
+#click1, #click2, #click3 {
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
 #click1 {
     background-color: #4761ac;
-    position: absolute;
-    width:100vw;
-    height:100vh;
-
-    // h1 {
-    //     font-family: Nexa;
-    //     font-weight: 800;
-    //     font-style: italic;
-    //     color: #65ffc0;
-    //     text-align: center;
-    //     font-size: 20vw;
-    //     margin-top: 50vw;
-    //     margin-bottom: 3vw;
-    // }
     
     svg {
         display: block;
-        width: 24vw;
-        margin: 26vh auto 14vw;
 
         .cls-1 {
             fill: #65ffc0;
@@ -31,20 +22,10 @@
         p {
             color: #65ffc0;
             text-align: center;
-            font-size: 13vw;
             font-family: Nexa;
             font-weight: 200;
             display: inline-block;
-            border: .5vw solid;
-            padding: 7vw 0 4vw;
-            width: 18vw;
-            margin: 0;
         }
-
-        p:first-child {
-            margin-right: -1vw;
-        }
-
     }
 
     .clicker {
@@ -55,14 +36,9 @@
 
 #click2 {
     background-color: #65ffc0;
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
 
     svg {
         display: block;
-        margin: 29vh auto 10vw;
-        width: 14vw;
         stroke-width: 2.5px;
 
         .cls-1 {
@@ -73,42 +49,32 @@
     h2 {
         color: #4761ac;
         font-family: Nexa;
-        font-size: 10vw;
         font-style: italic;
         font-weight: 600;
         text-align: center;
         margin: 0;
-        padding: 0 13vw;
     }
 
 }
 
 #click3 {
     background-color: #65ffc0;
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
 
     svg {
         display: block;
-        width: 24vw;
-        margin: 31vh auto 8vw;
     }
 
     h2 {
         color: #4761ac;
         font-family: Nexa;
-        font-size: 10vw;
         font-style: italic;
         font-weight: 600;
         text-align: center;
-        padding: 0 7.5vw;
     }
 
     p {
         color: #4761ac;
         font-family: Nexa;
-        font-size: 3.5vw;
         font-weight: 600;
         text-align: center;
     }   
@@ -118,26 +84,83 @@
 
 .clicker {
     background-color: transparent;
-    border: .5vw solid;
     color: #4761ac;
     font-family: Nexa;
-    font-size: 4vw;
     font-weight: 500;
-    padding: 2vw 3vw;
     display: block;
-    margin: 10vw auto 0; 
+}
+
+@media (orientation: portrait){
+    #click1{
+        svg {
+            width: 24vw;
+            margin: 26vh auto 14vw;   
+        }
+
+        #counter {
+            p {
+                font-size: 13vw;
+                border: .5vw solid;
+                padding: 7vw 0 4vw;
+                width: 18vw;
+                margin: 0;
+            }
+
+            p:first-child {
+                margin-right: -1vw;
+            }
+
+        }
+    } 
+
+    #click2{
+        svg {
+            margin: 25vh auto 12vw;
+            width: 14vw;
+        }
+
+        h2 {
+            font-size: 10vw;
+            padding: 0 13vw;
+        }
+    }
+
+    #click3{
+        svg {
+            width: 24vw;
+            margin: 27vh auto 12vw;
+        }
+
+        h2 {
+            font-size: 10vw;
+            padding: 0 7.5vw;
+        }
+
+        p {
+            font-size: 4vw;
+        }
+
+    }
+
+    .clicker{
+        border: .5vw solid;
+        font-size: 4vw;
+        padding: 2vw 3vw;
+        margin: 10vw auto 0;
+    }
 }
 
 @media (orientation: landscape){
     #click1 {
         svg {
             width: 11vw;
-            margin: 20vh auto 4vw;
+            margin: 27vh auto 4vw;
 
         }
 
         #counter {
             p {
+                margin: 0;
                 font-size: 5vw;
                 padding: 3vw 0 2vw;
                 width: 7vw;
@@ -152,7 +175,7 @@
 
     #click2 {
         svg {
-            margin: 18vh auto 4vw;
+            margin: 22vh auto 4vw;
             width: 6vw;
         }
 
@@ -165,7 +188,7 @@
     #click3 {
         svg {
             width: 11vw;
-            margin: 20vh auto 4vw;
+            margin: 27vh auto 5vw;
         }
 
         h2 {
