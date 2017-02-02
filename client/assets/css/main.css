@@ -173,18 +173,51 @@
     font-size: 4vw;
     padding: 2vw 3vw;
     margin: 10vw auto 0; } }
+@media (orientation: portrait) and (min-width: 750px) {
+  #click1 svg {
+    margin: 23vh auto 10vw;
+    width: 18vw; }
+  #click1 #counter p {
+    border: .35vw solid;
+    font-size: 10vw;
+    padding: 5vw 0 2.5vw;
+    width: 14vw; }
+  #click1 #counter p:first-child {
+    margin-right: -.8vw; }
+
+  #click2 svg {
+    margin: 22vh auto 11vw;
+    width: 9vw; }
+  #click2 h2 {
+    font-size: 6.5vw;
+    padding: 0 20vw; }
+
+  #click3 svg {
+    margin: 23vh auto 8vw;
+    width: 18vw; }
+  #click3 h2 {
+    font-size: 7.5vw;
+    padding: 0 18vw; }
+  #click3 p {
+    font-size: 2.5vw; }
+
+  .clicker {
+    font-size: 2.5vw;
+    padding: 1.5vw 2.5vw;
+    border: .35vw solid;
+    margin: 8vw auto 0; } }
 @media (orientation: landscape) {
   #click1 svg {
     width: 11vw;
-    margin: 27vh auto 4vw; }
+    margin: 25vh auto 4vw; }
   #click1 #counter p {
     margin: 0;
     font-size: 5vw;
     padding: 3vw 0 2vw;
     width: 7vw;
-    border: .4vw solid; }
+    border: .6vh solid; }
   #click1 #counter p:first-child {
-    margin-right: -.8vw; }
+    margin-right: -1.1vh; }
 
   #click2 svg {
     margin: 22vh auto 4vw;
@@ -206,7 +239,7 @@
     margin: 3vw auto 0;
     padding: 1vw 1.5vw;
     font-size: 2vw;
-    border: .4vw solid;
+    border: .6vh solid;
     cursor: pointer; } }
 body {
   height: 100vh;

@@ -3,6 +3,7 @@
 
     function splashController($scope, $location){
         $scope.counter = [Math.floor(Math.random()*3), Math.floor(Math.random()*9+1)];
+        // $scope.counter = [0,1];
         $scope.view = 0;
         $scope.buttonText = 'click here';
 
