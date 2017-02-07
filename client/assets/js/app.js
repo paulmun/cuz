@@ -10,6 +10,10 @@
             templateUrl: 'partials/index.html',
             controller: 'splashController'
         })
+        .when('/contact', {
+            templateUrl: 'partials/contact.html',
+            controller: 'contactController'
+        })
         .otherwise('/');
     }
 

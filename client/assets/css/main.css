@@ -99,7 +99,8 @@
       font-weight: 200;
       display: inline-block; }
   #click1 .clicker {
-    color: #65ffc0; }
+    color: #65ffc0;
+    border-radius: 0; }
 
 #click2 {
   background-color: #65ffc0; }
@@ -241,9 +242,107 @@
     font-size: 2vw;
     border: .6vh solid;
     cursor: pointer; } }
+@media (orientation: landscape) and (min-width: 1050px) {
+  #click1 svg {
+    width: 8vw;
+    margin: 25vh auto 3.5vw; }
+  #click1 #counter p {
+    margin: 0;
+    font-size: 4vw;
+    padding: 2.5vw 0 1.5vw;
+    width: 6vw;
+    border: .5vh solid; }
+  #click1 #counter p:first-child {
+    margin-right: -1vh; }
+
+  #click2 svg {
+    margin: 22vh auto 4vw;
+    width: 4vw; }
+  #click2 h2 {
+    font-size: 3.5vw;
+    padding: 0 31vw; }
+
+  #click3 svg {
+    width: 8vw;
+    margin: 26vh auto 5vw; }
+  #click3 h2 {
+    font-size: 3.5vw;
+    margin: 0;
+    padding: 0 25vw; }
+  #click3 p {
+    font-size: 2vw;
+    margin: 2vw 0; }
+
+  .clicker {
+    margin: 2.75vw auto 0;
+    padding: .75vw 1.25vw;
+    font-size: 1.5vw;
+    border: .5vh solid;
+    cursor: pointer; } }
 body {
   height: 100vh;
   width: 100vw;
   margin: 0; }
+
+#mc_embed_signup {
+  position: absolute;
+  bottom: 0; }
+  #mc_embed_signup p {
+    font-size: 1.75vw;
+    margin: .75vw; }
+  #mc_embed_signup form#mc-embedded-subscribe-form {
+    width: 94vw;
+    padding: 0 3vw;
+    text-align: center;
+    height: 6vw; }
+    #mc_embed_signup form#mc-embedded-subscribe-form #mc_embed_signup_scroll {
+      width: 100%;
+      overflow: hidden; }
+      #mc_embed_signup form#mc-embedded-subscribe-form #mc_embed_signup_scroll div {
+        display: inline-block; }
+      #mc_embed_signup form#mc-embedded-subscribe-form #mc_embed_signup_scroll .mc-field-group {
+        width: 55%;
+        text-align: left; }
+        #mc_embed_signup form#mc-embedded-subscribe-form #mc_embed_signup_scroll .mc-field-group input {
+          padding: 0 0 1vw 2vw;
+          width: 90%;
+          border-radius: 0;
+          border-top: 0;
+          border-right: 0;
+          border-left: 0;
+          border-bottom: .4vw solid #4761ac;
+          background-color: transparent;
+          font-size: 1.75vw;
+          font-family: Nexa;
+          font-weight: 600;
+          color: #4761ac;
+          vertical-align: bottom; }
+      #mc_embed_signup form#mc-embedded-subscribe-form #mc_embed_signup_scroll .clear {
+        vertical-align: bottom; }
+        #mc_embed_signup form#mc-embedded-subscribe-form #mc_embed_signup_scroll .clear .clicker {
+          padding: 1vw 1.5vw;
+          font-size: 1.5vw;
+          margin: 0;
+          position: relative;
+          cursor: pointer;
+          border-radius: 0; }
+
+@media (orientation: landscape) {
+  #mc_embed_signup {
+    bottom: 0 vw;
+    position: absolute; }
+    #mc_embed_signup p {
+      font-size: 1.25vw; }
+    #mc_embed_signup form#mc-embedded-subscribe-form #mc_embed_signup_scroll .mc-field-group {
+      width: 35%; }
+      #mc_embed_signup form#mc-embedded-subscribe-form #mc_embed_signup_scroll .mc-field-group input {
+        border-bottom: .35vw solid #4761ac;
+        font-size: 1.25vw;
+        padding: 0 0 .4vw 1.25vw;
+        width: 93%; }
+    #mc_embed_signup form#mc-embedded-subscribe-form #mc_embed_signup_scroll .clear .clicker {
+      cursor: pointer;
+      font-size: 1.25vw;
+      padding: 0.5vw 1vw; } }
 
 /*# sourceMappingURL=main.css.map */

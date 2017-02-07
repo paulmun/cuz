@@ -8,6 +8,7 @@
         $scope.buttonText = 'click here';
 
         $scope.clicker = function(){
+            console.log($scope.counter);
             if (!$scope.counter[0] && $scope.counter[1] === 1) {
                 $scope.counter[1]--;
                 $scope.view++;
@@ -20,11 +21,6 @@
                 $scope.counter[1]--;
             }
         }
-
-        // $scope.goBack = function(){
-        //     $scope.view = 0;
-        //     $scope.counter = [0, 1];
-        // }
 
     };
 })();

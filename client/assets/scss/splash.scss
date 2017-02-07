@@ -29,7 +29,8 @@
     }
 
     .clicker {
-        color: #65ffc0;  
+        color: #65ffc0;
+        border-radius: 0;
     }
     
 }
@@ -77,8 +78,7 @@
         font-family: Nexa;
         font-weight: 600;
         text-align: center;
-    }   
-
+    }
 
 }
 
@@ -265,4 +265,67 @@
         border: .6vh solid;
         cursor: pointer;       
     }
+}
+
+@media (orientation: landscape) and (min-width: 1050px){
+    #click1 {
+        svg {
+            width: 8vw;
+            margin: 25vh auto 3.5vw;
+        }
+
+        #counter {
+            p {
+                margin: 0;
+                font-size: 4vw;
+                padding: 2.5vw 0 1.5vw;
+                width: 6vw;
+                border: .5vh solid;
+            }
+
+            p:first-child {
+                margin-right: -1vh;
+            }
+        }
+    }
+
+    #click2 {
+        svg {
+            margin: 22vh auto 4vw;
+            width: 4vw;
+        }
+
+        h2 {
+            font-size: 3.5vw;
+            padding: 0 31vw;
+        }
+    }
+
+    #click3{
+        svg {
+            width: 8vw;
+            margin: 26vh auto 5vw;
+        }
+        
+        h2 {
+            font-size: 3.5vw;
+            margin: 0;
+            padding: 0 25vw;
+        }
+
+        p {
+            font-size: 2vw;
+            margin: 2vw 0;
+        }
+
+    }
+
+    .clicker {
+        margin: 2.75vw auto 0;
+        padding: .75vw 1.25vw;
+        font-size: 1.5vw;
+        border: .5vh solid;
+        cursor: pointer;       
+    }
+
 }
