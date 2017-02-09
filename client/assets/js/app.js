@@ -1,3 +1,5 @@
+'use strict';
+
 (function(){
 
     angular.module('cuzMain', ['ngRoute']).config(config);
