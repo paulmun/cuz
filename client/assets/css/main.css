@@ -328,7 +328,7 @@ body {
       position: relative;
       cursor: pointer;
       border-radius: 0;
-      margin: 0; }
+      margin: 1vw 0 0; }
 
 @media (orientation: landscape) {
   #newsLetter {

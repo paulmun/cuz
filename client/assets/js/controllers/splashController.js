@@ -40,7 +40,7 @@
                 subscriptionFactory.emailSubscribe({email : $scope.subscribeEmail}, function(data){
                     console.log(data);
                     if (data.errors === "Member Exists") {
-                        $scope.subscribeMessage = "thanks, but you're already, check your email for confirmation!";
+                        $scope.subscribeMessage = "thanks, but you're already sing up! check your email for confirmation!";
                         $scope.subscribeEmail = '';
                     } else {
                         $scope.subscribeMessage = 'you should be receiving an email confirmation, thanks for signing up!'
