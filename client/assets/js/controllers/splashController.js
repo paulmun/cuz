@@ -30,20 +30,20 @@
         }
 
         $scope.subscribe = function(){
-            $scope.subscribeMessage = 'subscribe for the latest news from cuz';
+            $scope.subscribeMessage = 'subscribe for the latest news from cuz.';
 
             if ($scope.subscribeEmail === "") {
-                $scope.subscribeMessage = "you've gotta enter an email!";
+                $scope.subscribeMessage = "you've gotta enter an email.";
             } else if (!emailRegex.test($scope.subscribeEmail)) {
-                $scope.subscribeMessage = "enter a valid email!";
+                $scope.subscribeMessage = "enter a valid email.";
             } else {
                 subscriptionFactory.emailSubscribe({email : $scope.subscribeEmail}, function(data){
                     console.log(data);
                     if (data.errors === "Member Exists") {
-                        $scope.subscribeMessage = "thanks, but you're already sing up! check your email for confirmation!";
+                        $scope.subscribeMessage = "thanks, but you're already signed up. check your email for confirmation.";
                         $scope.subscribeEmail = '';
                     } else {
-                        $scope.subscribeMessage = 'you should be receiving an email confirmation, thanks for signing up!'
+                        $scope.subscribeMessage = 'you should be receiving an email confirmation, thanks for signing up.'
                         $scope.subscribeEmail = '';
                     }
                 });
