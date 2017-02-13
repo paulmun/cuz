@@ -1,0 +1,186 @@
+#contactView {
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    
+    background-color: #65ffc0;
+
+    svg {
+        display: block;
+    }
+
+    h2 {
+        font-family: Nexa;
+        font-style: italic;
+        font-weight: 800;
+        color: #4761ac;
+    }
+
+    form {
+        input {
+            background-color: transparent;
+            border-bottom: .6vw solid #4761ac;
+            border-top: 0;
+            border-right: 0;
+            border-left: 0;
+
+            text-align: center;
+            font-family: Nexa;
+
+        }
+
+        input::-webkit-input-placeholder {
+            color: #4761ac;
+            opacity: .5;
+        }
+
+        input::-moz-placeholder {
+            color: #4761ac;
+            opacity: .5;   
+        }
+
+        input: -ms-input-placeholder {
+            color: #4761ac;
+            opacity: .5;      
+        }
+
+        input: -moz-placeholder {
+            color: #4761ac;
+            opacity: .5;   
+        }
+
+        input:last-child {
+            border: .6vw solid #4761ac;
+            padding: 2vw 5vw;
+        }
+    }
+
+    #contactServicesModal {
+        background-color: #65ffc0;
+        left: 0;
+        right: 0;
+        top: 0;
+        position: absolute;
+    }
+
+}
+
+
+@media (orientation: portrait){
+    #contactView {
+        svg {
+            width: 24vw;
+            margin: 18vh auto 14vw;
+        }
+
+        form {
+            margin: 0 auto;
+            width: 80vw;
+
+            h2 {
+                font-size: 6vw;
+                margin: 3.5vw 0;
+            }
+
+            input {
+                font-size: 4vw;
+                color: #4761ac;
+            }
+
+            #contactName {
+                display: inline-block;
+            }
+
+            #contactNameInput {
+                display: inline-block;
+                width: 51%;
+                border-radius: 0;
+            }
+
+            #contactPosition {
+                display: inline-block;
+            }
+
+            #contactPositionInput {
+                display: inline-block;
+                width: 75%;
+                border-radius: 0;
+            }
+
+            #contactCompany {
+                display: inline-block;
+            }
+
+            #contactCompanyInput {
+                display: inline-block;
+                width: 85%;
+                border-radius: 0;
+            }
+
+            #contactInfoInput {
+                width: 93%;
+                border-radius: 0;
+            }
+
+            #contactServicesInput {
+                width: 93%;
+                border-radius: 0;
+            }
+
+        }
+
+        #contactServicesModal {
+            border: .6vw solid #4761ac;
+            margin: 30vw auto;
+            padding: 8vw;
+            width: 75vw;
+
+            h2 {
+                margin: 10vw 0;
+            }
+
+            .unselectedService {
+                font-style: normal;
+                font-weight: 400;
+            }
+
+            .clicker {
+                font-size: 4vw;
+                padding: 2vw 5vw;
+                border: .6vw solid;
+                margin-top: 2vw;
+            }
+        }
+
+    }
+}
+
+@media (orientation: portrait) and (min-width: 750px){
+    #contactView {
+        svg {
+            width: 18vw;
+            margin: 15vw auto 10vw;
+        }
+
+        h2 {
+            font-size: 5vw;
+        }
+    }
+}
+@media (orientation: landscape){
+    #contactView {
+        svg {
+            width: 11vw;
+            margin: 22vh auto 4vw;
+        }
+    }
+}
+@media (orientation: landscape) and (min-width: 1050px){
+    #contactView {
+        svg {
+            width: 8vw;
+            margin: 25vh auto 3.5vw;
+        }
+    }
+}
