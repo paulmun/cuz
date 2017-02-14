@@ -8,9 +8,7 @@
         var serviceList = ['branding', 'digital experiences', 'social media', 'brand & product content', 'something else'];
         $scope.services = '';
         $scope.selectedServices = [false, false, false, false, false];
-
         $scope.serviceClass = ['unselectedService', 'unselectedService', 'unselectedService', 'unselectedService', 'unselectedService'];
-
         $scope.modal = false;
 
         $scope.writeServices = function() {

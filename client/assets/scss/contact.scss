@@ -20,14 +20,13 @@
     form {
         input {
             background-color: transparent;
-            border-bottom: .6vw solid #4761ac;
             border-top: 0;
             border-right: 0;
             border-left: 0;
 
             text-align: center;
             font-family: Nexa;
-
+            color: #4761ac;
         }
 
         input::-webkit-input-placeholder {
@@ -51,8 +50,42 @@
         }
 
         input:last-child {
-            border: .6vw solid #4761ac;
-            padding: 2vw 5vw;
+            border-radius: 0;
+        }
+
+        #contactName {
+            display: inline-block;
+        }
+
+        #contactNameInput {
+            display: inline-block;
+            border-radius: 0;
+        }
+
+        #contactPosition {
+            display: inline-block;
+        }
+
+        #contactPositionInput {
+            display: inline-block;
+            border-radius: 0;
+        }
+
+        #contactCompany {
+            display: inline-block;
+        }
+
+        #contactCompanyInput {
+            display: inline-block;
+            border-radius: 0;
+        }
+
+        #contactInfoInput {
+            border-radius: 0;
+        }
+
+        #contactServicesInput {
+            border-radius: 0;
         }
     }
 
@@ -62,6 +95,11 @@
         right: 0;
         top: 0;
         position: absolute;
+
+        .unselectedService {
+            font-style: normal;
+            font-weight: 400;
+        }
     }
 
 }
@@ -71,7 +109,7 @@
     #contactView {
         svg {
             width: 24vw;
-            margin: 18vh auto 14vw;
+            margin: 10vh auto 8vw;
         }
 
         form {
@@ -85,7 +123,12 @@
 
             input {
                 font-size: 4vw;
-                color: #4761ac;
+                border-bottom: .6vw solid #4761ac;
+            }
+
+            input:last-child {
+                border: .6vw solid #4761ac;
+                padding: 2vw 5vw;
             }
 
             #contactName {
@@ -95,7 +138,6 @@
             #contactNameInput {
                 display: inline-block;
                 width: 51%;
-                border-radius: 0;
             }
 
             #contactPosition {
@@ -105,7 +147,6 @@
             #contactPositionInput {
                 display: inline-block;
                 width: 75%;
-                border-radius: 0;
             }
 
             #contactCompany {
@@ -115,34 +156,26 @@
             #contactCompanyInput {
                 display: inline-block;
                 width: 85%;
-                border-radius: 0;
             }
 
             #contactInfoInput {
                 width: 93%;
-                border-radius: 0;
             }
 
             #contactServicesInput {
                 width: 93%;
-                border-radius: 0;
             }
 
         }
 
         #contactServicesModal {
             border: .6vw solid #4761ac;
-            margin: 30vw auto;
+            margin: 22vh auto;
             padding: 8vw;
             width: 75vw;
 
             h2 {
                 margin: 10vw 0;
-            }
-
-            .unselectedService {
-                font-style: normal;
-                font-weight: 400;
             }
 
             .clicker {
@@ -152,7 +185,6 @@
                 margin-top: 2vw;
             }
         }
-
     }
 }
 
@@ -160,11 +192,67 @@
     #contactView {
         svg {
             width: 18vw;
-            margin: 15vw auto 10vw;
+            margin: 8vh auto 6vw;
         }
 
-        h2 {
-            font-size: 5vw;
+        form {
+            margin: 0 auto;
+            width: 80vw;
+
+            h2 {
+                font-size: 4vw;
+                margin: 3vw 0;
+            }
+
+            input {
+                font-size: 3.25vw;
+            }
+
+            #contactNameInput {
+                width: 67%;
+            }
+
+            #contactPositionInput {
+                width: 83%;
+            }
+
+            #contactCompanyInput {
+                width: 89%;
+            }
+
+            #contactInfoInput {
+                width: 95%;
+            }
+
+            #contactServicesInput {
+                width: 95%;
+            }
+
+        }
+
+        #contactServicesModal {
+            border: .6vw solid #4761ac;
+            margin: 22vh auto;
+            padding: 5vw;
+            width: 71vw;
+
+            h2 {
+                margin: 8vw 0;
+                font-size: 3.25vw;
+                padding-left: 5vw;
+            }
+
+            .unselectedService {
+                font-style: normal;
+                font-weight: 400;
+            }
+
+            .clicker {
+                font-size: 3.25vw;
+                padding: 2vw 5vw;
+                border: .6vw solid;
+                margin-top: 2vw;
+            }
         }
     }
 }
@@ -172,7 +260,85 @@
     #contactView {
         svg {
             width: 11vw;
-            margin: 22vh auto 4vw;
+            margin: 12vh auto 2vw;
+        }
+
+        form {
+            margin: 0 auto;
+            width: 80vw;
+            padding: 0 10vh;
+
+            h2 {
+                font-size: 3.25vw;
+                margin: 1.5vw 0;
+            }
+
+            input {
+                font-size: 2.75vw;
+                border-bottom: .6vh solid #4761ac;
+            }
+
+            input:last-child {
+                border: .6vh solid #4761ac;
+                padding: 2vh 5vh;
+            }
+
+            #contactNameInput {
+                width: 72%;
+            }
+
+            #contactPositionInput {
+                width: 38%;
+            }
+
+            #contactCompanyInput {
+                width: 38%;
+            }
+
+            #contactInfo {
+                display: inline-block;
+            }
+
+            #contactInfoInput {
+                display: inline-block;
+                width: 44%;
+            }
+
+            #contactServices {
+                display: inline-block;
+            }
+
+            #contactServicesInput {
+                display: inline-block;
+                width: 41%;
+            }
+        }
+
+        #contactServicesModal {
+            border: .4vw solid #4761ac;
+            margin: 11vh auto 0;
+            padding: 8vh;
+            width: 75vw;
+
+            h2 {
+                margin: 4vh 0;
+                width: 49%;
+                display:inline-block;
+                vertical-align: top;
+                font-size: 3.25vw;
+            }
+
+            .unselectedService {
+                font-style: normal;
+                font-weight: 400;
+            }
+
+            .clicker {
+                font-size: 2.75vw;
+                padding: 2vh 5vh;
+                border: .6vh solid;
+                margin-top: 2vh;
+            }
         }
     }
 }
@@ -180,7 +346,76 @@
     #contactView {
         svg {
             width: 8vw;
-            margin: 25vh auto 3.5vw;
+            margin: 11vh auto 5.5vw;
         }
+
+        form {
+            width: 62vw;
+
+            h2 {
+                font-size: 2.25vw;
+                margin: 1.5vw 0;
+            }
+
+            input {
+                font-size: 1.75vw;
+                border-bottom: .4vh solid #4761ac;
+            }
+
+            input:last-child {
+                border: .4vh solid #4761ac;
+                padding: 1.25vh 4vh;
+                margin: 4.75vw auto 0;
+            }
+
+            #contactNameInput {
+                width: 77%;
+            }
+
+            #contactPositionInput {
+                width: 42%;
+            }
+
+            #contactCompanyInput {
+                width: 42%;
+            }
+
+            #contactInfo {
+                display: inline-block;
+            }
+
+            #contactInfoInput {
+                display: inline-block;
+                width: 52%;
+            }
+
+            #contactServices {
+                display: inline-block;
+            }
+
+            #contactServicesInput {
+                display: inline-block;
+                width: 50%;
+            }
+        }
+
+        #contactServicesModal {
+            margin: 23vh auto 0;
+            width: 54vw;
+
+            h2 {
+                margin: 4vh 0;
+                width: 49%;
+                font-size: 2.25vw;
+            }
+
+            .clicker {
+                font-size: 1.75vw;
+                padding: 1.25vh 4vh;
+                border: .4vh solid;
+                margin-top: 2vh;
+            }
+        }
+
     }
 }
