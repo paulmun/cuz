@@ -99,8 +99,7 @@
       font-weight: 200;
       display: inline-block; }
   #click1 .clicker {
-    color: #65ffc0;
-    border-radius: 0; }
+    color: #65ffc0; }
 
 #click2 {
   background-color: #65ffc0; }
@@ -132,6 +131,13 @@
     font-family: Nexa;
     font-weight: 600;
     text-align: center; }
+  #click3 a {
+    display: block;
+    text-align: center; }
+    #click3 a .clicker {
+      margin: 0 auto;
+      display: inline-block;
+      text-decoration: none; }
 
 .clicker {
   background-color: transparent;
@@ -139,7 +145,8 @@
   font-family: Nexa;
   font-weight: 400;
   display: block;
-  letter-spacing: .75px; }
+  letter-spacing: .75px;
+  border-radius: 0; }
 
 @media (orientation: portrait) {
   #click1 svg {
@@ -200,8 +207,8 @@
   #click3 h2 {
     font-size: 7.5vw;
     padding: 0 18vw; }
-  #click3 p {
-    font-size: 2.5vw; }
+  #click3 .clicker {
+    margin: 0 auto; }
 
   .clicker {
     font-size: 2.5vw;
@@ -234,8 +241,6 @@
   #click3 h2 {
     font-size: 5vw;
     padding: 0 10vw; }
-  #click3 p {
-    font-size: 2.25vw; }
 
   .clicker {
     margin: 3vw auto 0;
@@ -270,9 +275,6 @@
     font-size: 3.5vw;
     margin: 0;
     padding: 0 25vw; }
-  #click3 p {
-    font-size: 2vw;
-    margin: 2vw 0; }
 
   .clicker {
     margin: 2.75vw auto 0;
@@ -315,7 +317,8 @@
       color: #4761ac;
       opacity: .5; }
     #contactView form input:last-child {
-      border-radius: 0; }
+      border-radius: 0;
+      cursor: pointer; }
     #contactView form #contactName {
       display: inline-block; }
     #contactView form #contactNameInput {
@@ -341,6 +344,8 @@
     right: 0;
     top: 0;
     position: absolute; }
+    #contactView #contactServicesModal h2 {
+      cursor: pointer; }
     #contactView #contactServicesModal .unselectedService {
       font-style: normal;
       font-weight: 400; }
@@ -359,8 +364,9 @@
       font-size: 4vw;
       border-bottom: .6vw solid #4761ac; }
     #contactView form input:last-child {
-      border: .6vw solid #4761ac;
-      padding: 2vw 5vw; }
+      border: .35vw solid #4761ac;
+      padding: 1.5vw 2.5vw;
+      font-size: 2.5vw; }
     #contactView form #contactName {
       display: inline-block; }
     #contactView form #contactNameInput {
@@ -389,8 +395,8 @@
       margin: 10vw 0; }
     #contactView #contactServicesModal .clicker {
       font-size: 4vw;
-      padding: 2vw 5vw;
-      border: .6vw solid;
+      padding: 2vw 3vw;
+      border: .5vw solid;
       margin-top: 2vw; } }
 @media (orientation: portrait) and (min-width: 750px) {
   #contactView svg {
@@ -427,9 +433,9 @@
       font-style: normal;
       font-weight: 400; }
     #contactView #contactServicesModal .clicker {
-      font-size: 3.25vw;
-      padding: 2vw 5vw;
-      border: .6vw solid;
+      font-size: 2.5vw;
+      padding: 1.5vw 2.5vw;
+      border: .35vw solid;
       margin-top: 2vw; } }
 @media (orientation: landscape) {
   #contactView svg {
@@ -447,7 +453,8 @@
       border-bottom: .6vh solid #4761ac; }
     #contactView form input:last-child {
       border: .6vh solid #4761ac;
-      padding: 2vh 5vh; }
+      padding: 1vw 1.55vw;
+      font-size: 2vw; }
     #contactView form #contactNameInput {
       width: 72%; }
     #contactView form #contactPositionInput {
@@ -479,8 +486,8 @@
       font-style: normal;
       font-weight: 400; }
     #contactView #contactServicesModal .clicker {
-      font-size: 2.75vw;
-      padding: 2vh 5vh;
+      font-size: 2vw;
+      padding: 1vw 1.5vw;
       border: .6vh solid;
       margin-top: 2vh; } }
 @media (orientation: landscape) and (min-width: 1050px) {
@@ -497,8 +504,9 @@
       border-bottom: .4vh solid #4761ac; }
     #contactView form input:last-child {
       border: .4vh solid #4761ac;
-      padding: 1.25vh 4vh;
-      margin: 4.75vw auto 0; }
+      padding: .75vw 1.25vw;
+      margin: 4.75vw auto 0;
+      font-size: 1.5vw; }
     #contactView form #contactNameInput {
       width: 77%; }
     #contactView form #contactPositionInput {
@@ -523,10 +531,11 @@
       width: 49%;
       font-size: 2.25vw; }
     #contactView #contactServicesModal .clicker {
-      font-size: 1.75vw;
+      font-size: 1.5vw;
       padding: 1.25vh 4vh;
-      border: .4vh solid;
-      margin-top: 2vh; } }
+      border: .5vh solid;
+      margin-top: 2vh;
+      font-size: 1.5vw; } }
 body {
   height: 100vh;
   width: 100vw;
@@ -592,5 +601,7 @@ body {
       cursor: pointer;
       font-size: 1.25vw;
       padding: 0.5vw 1vw; } }
+.clicker {
+  cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */

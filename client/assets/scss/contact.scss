@@ -51,6 +51,7 @@
 
         input:last-child {
             border-radius: 0;
+            cursor: pointer;
         }
 
         #contactName {
@@ -96,6 +97,10 @@
         top: 0;
         position: absolute;
 
+        h2 {
+            cursor: pointer;
+        }
+
         .unselectedService {
             font-style: normal;
             font-weight: 400;
@@ -127,8 +132,9 @@
             }
 
             input:last-child {
-                border: .6vw solid #4761ac;
-                padding: 2vw 5vw;
+                border: .35vw solid #4761ac;
+                padding: 1.5vw 2.5vw;
+                font-size: 2.5vw;
             }
 
             #contactName {
@@ -180,8 +186,8 @@
 
             .clicker {
                 font-size: 4vw;
-                padding: 2vw 5vw;
-                border: .6vw solid;
+                padding: 2vw 3vw;
+                border: .5vw solid;
                 margin-top: 2vw;
             }
         }
@@ -248,9 +254,9 @@
             }
 
             .clicker {
-                font-size: 3.25vw;
-                padding: 2vw 5vw;
-                border: .6vw solid;
+                font-size: 2.5vw;
+                padding: 1.5vw 2.5vw;
+                border: .35vw solid;
                 margin-top: 2vw;
             }
         }
@@ -280,7 +286,8 @@
 
             input:last-child {
                 border: .6vh solid #4761ac;
-                padding: 2vh 5vh;
+                padding: 1vw 1.55vw;
+                font-size: 2vw;
             }
 
             #contactNameInput {
@@ -334,8 +341,8 @@
             }
 
             .clicker {
-                font-size: 2.75vw;
-                padding: 2vh 5vh;
+                font-size: 2vw;
+                padding: 1vw 1.5vw;
                 border: .6vh solid;
                 margin-top: 2vh;
             }
@@ -364,8 +371,9 @@
 
             input:last-child {
                 border: .4vh solid #4761ac;
-                padding: 1.25vh 4vh;
+                padding: .75vw 1.25vw;
                 margin: 4.75vw auto 0;
+                font-size: 1.5vw;
             }
 
             #contactNameInput {
@@ -410,10 +418,11 @@
             }
 
             .clicker {
-                font-size: 1.75vw;
+                font-size: 1.5vw;
                 padding: 1.25vh 4vh;
-                border: .4vh solid;
+                border: .5vh solid;
                 margin-top: 2vh;
+                font-size: 1.5vw
             }
         }
 

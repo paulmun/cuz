@@ -30,7 +30,6 @@
 
     .clicker {
         color: #65ffc0;
-        border-radius: 0;
     }
     
 }
@@ -79,6 +78,17 @@
         font-weight: 600;
         text-align: center;
     }
+    
+    a {
+        display: block;
+        text-align: center;
+
+        .clicker {
+            margin: 0 auto;
+            display: inline-block;
+            text-decoration: none;
+        }        
+    }
 
 }
 
@@ -89,6 +99,7 @@
     font-weight: 400;
     display: block;
     letter-spacing: .75px;
+    border-radius: 0;
 }
 
 @media (orientation: portrait){
@@ -195,8 +206,8 @@
             padding: 0 18vw;
         }
 
-        p {
-            font-size: 2.5vw;
+        .clicker {
+            margin: 0 auto;
         }
     }
 
@@ -213,7 +224,6 @@
         svg {
             width: 11vw;
             margin: 25vh auto 4vw;
-
         }
 
         #counter {
@@ -252,10 +262,6 @@
         h2 {
             font-size: 5vw;
             padding: 0 10vw;
-        }
-
-        p {
-            font-size: 2.25vw;
         }
     }
 
@@ -312,11 +318,6 @@
             font-size: 3.5vw;
             margin: 0;
             padding: 0 25vw;
-        }
-
-        p {
-            font-size: 2vw;
-            margin: 2vw 0;
         }
 
     }
