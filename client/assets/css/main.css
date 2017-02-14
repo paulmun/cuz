@@ -275,6 +275,8 @@
     font-size: 3.5vw;
     margin: 0;
     padding: 0 25vw; }
+  #click3 a .clicker {
+    margin: 2vw auto 0; }
 
   .clicker {
     margin: 2.75vw auto 0;
